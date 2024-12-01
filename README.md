@@ -37,3 +37,10 @@ We run the solutions as test. Populate the expect test for part a running agains
 Once your expect test for the test input is passing, the expect test running on the main input should be providing the answer to part a.
 
 Repeat for part b.
+
+## Format code
+
+```shell
+opam exec -- dune fmt
+opam exec -- dune promote
+```

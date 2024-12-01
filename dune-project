@@ -19,7 +19,7 @@
  (name ocaml_advent_of_code)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune core ppx_sexp_conv ppx_expect ppx_inline_test)
+ (depends ocaml dune)
  (tags
   (topics "to describe" your project)))
 
