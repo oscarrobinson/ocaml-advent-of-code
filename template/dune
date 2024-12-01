@@ -1,0 +1,7 @@
+(library
+ (name y_YYYY_d_DD)
+ (libraries core ppx_sexp_conv ppx_expect ppx_inline_test)
+ (inline_tests
+  (deps input.txt test_input.txt))
+ (preprocess
+  (pps ppx_jane)))
